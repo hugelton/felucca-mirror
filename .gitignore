@@ -1,0 +1,26 @@
+# SPDX-License-Identifier: GPL-3.0-only
+# build output
+build/
+out/
+*.wasm
+!site/wasm/**/*.wasm
+*.o
+*.ppm
+*.png.tmp
+
+# test captures and recordings (.fmr = recorded MIRROR state streams)
+captures/
+*.fmr
+*.webm
+*.mp4
+
+# node
+node_modules/
+package-lock.json
+
+# editors / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+.playwright-mcp/
